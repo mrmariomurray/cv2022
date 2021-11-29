@@ -1,0 +1,198 @@
+a {
+  color:  #11999E
+}
+
+body {
+  background-color: #345B63;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+/* *** font-size: 2em  means 2x16px because 1 em is 16px. 1 em is also equal to 100% font-size*** */
+  font-size: 1em;
+  font-family: 'Merriweather', serif;
+
+
+}
+
+.bottom-container {
+  /* width: 200px ;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+  display: block; */
+  margin: 60px auto 60px 30px;
+}
+
+.bottomCloud {
+  position: absolute;
+  margin-left: -10%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto auto 30px;
+  padding: 30px 30px 100px 30px;
+}
+
+.copyrightText {
+color: #EAF6F6;
+margin: 40px auto auto -45px;
+}
+
+
+
+.footer-link {
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+.getInTouchParagraph {
+  margin: 30px auto 60px;
+}
+
+h1 {
+  color: #66BFBF;
+  /* line-height: 2; */
+  margin: 50px auto 0 auto ;
+  padding-top: 50px;
+  font-size: 5.625rem;
+  font-family: 'Pacifico', cursive;
+
+}
+
+h2 {
+  font-weight: normal;
+  color: #66BFBF;
+  /* rem means roots em and tells the browser that no matter what is happening with the font size in the page set our font
+  to this precise size relative to the root size of the font */
+  font-size: 2.5rem;
+  margin: 50px auto 50px;
+  font-family: 'Montserrat',sans-serif;
+  line-height: 0;
+}
+
+.headerDescription {
+  font-weight: normal;
+  color: #66BFBF;
+  /* rem means roots em and tells the browser that no matter what is happening with the font size in the page set our font
+  to this precise size relative to the root size of the font */
+  font-size: 2.5rem;
+  margin: 0 auto 50px;
+  font-family: 'Montserrat',sans-serif;
+  line-height: 0;
+}
+
+h3 {
+  color:  #11999E;
+  font-family: 'Montserrat',sans-serif;
+  padding: 20px 0;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 3%;
+  height: 10px;
+  border-width: 5px;
+  border-color: #3c7c7c;
+  clear: both;
+
+}
+.middle-container {
+background-color: #E8F6EF;
+}
+
+.mountain {
+  vertical-align: bottom;
+}
+
+.paragraph-intro {
+  width: 30%;
+  margin:auto auto 100px;
+}
+
+.poker {
+  width: 25%;
+  float: right;
+  margin-left:30px;
+  padding-bottom: 60px;
+}
+
+.pokerChallenge {
+clear:left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 74px auto 0;
+}
+
+.skill-row {
+  width: 50%;
+  /* using three properties to define margin below may cause issues so keep an eye on it. */
+  margin:100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.skillRow2 {
+  width: 50%;
+  margin:160px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+.skillHtmlCss {
+  width: 25%;
+  float: left;
+  margin-right:30px;
+}
+
+
+
+/* How to clear the right side of an element
+.skillJSParagraph {
+  clear: right;
+} */
+.topCloud {
+    position: absolute;
+    margin: auto 213px auto;
+}
+
+
+.top-container {
+    display: block;
+    position: relative;
+    margin-top: 100px;
+}
